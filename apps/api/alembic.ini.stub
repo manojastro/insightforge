@@ -1,0 +1,5 @@
+# Alembic stub — full migrations are managed by another agent / future step.
+# To autogenerate: alembic init alembic && point sqlalchemy.url at DATABASE_URL.
+[alembic]
+script_location = alembic
+sqlalchemy.url = driver://user:pass@localhost/dbname
